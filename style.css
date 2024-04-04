@@ -1,0 +1,81 @@
+body {
+    background-color: #f0f0f0;
+    background-image: url(https://images.unsplash.com/photo-1615800098779-1be32e60cca3?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); /* Optional: Add a background image */
+    background-repeat: repeat;
+    background-position: center; 
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vh;
+    margin: 0 auto;
+    width: 45%;
+    border: 0.25vh solid #FFB5DA;
+    border-radius: 20px;
+    position: static;
+    top: 50%;
+    /* transform: translate(0%, 0%); */
+    right: 50%;
+    margin-bottom: 2vh;
+    margin-top: 20vh;
+}
+
+.container h1 {
+    font-family: 'Baloo 2';
+    font-weight: 900;
+    font-size: 5.1vh;
+    margin-top: 0.25vh;
+    margin-bottom: 0.25vh;
+    text-align: center;
+    color: #6420AA;
+    opacity: 65%;
+}
+.split-container {
+    display: flex;
+    padding: 1vh;
+    margin: 0 auto;
+    width: 45%;
+    border: 0.25vh solid #FFB5DA;
+    border-radius: 15px;
+    position: static;
+    /* color: #42303f; */
+}
+.split-container button {
+    width: 40%;
+    object-fit: fill;
+    order: 2;
+    transition: transform .2s ease-in-out;
+}
+/* .split-container img:hover {
+    transform: rotate(5deg);
+} */
+/* .split-container img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ddd;
+    box-sizing: border-box;
+} */
+
+.split-container p {
+    font-family: 'Baloo';
+    width: 60%; 
+    margin-right: 10px; 
+}
+.big-text {
+    color: #b838cf;
+    font-family: 'Baloo 2';
+    font-size: 6vh; 
+    font-weight: 800; 
+    margin-bottom: 0vh;
+    opacity: 65%;
+}
+.small-text {
+    color: #42303f;
+    font-family: 'Mali';
+    font-size: 2vh;
+}
